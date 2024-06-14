@@ -1,0 +1,66 @@
+/* Google font linking */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* Global Css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+a,a:hover{
+    text-decoration: none;
+
+}
+.container{
+    width: 1140px;
+    margin: o auto;
+}
+/* social-media part css */
+.social-media{
+    text-align: center;
+    position: fixed;
+    left: -190px;
+    transition: 0.5s;
+}
+.social-media:hover{
+    
+    left: 0px;
+    transition: 0.5s;
+}
+
+.social-media ul li {
+    list-style-type: none;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 65px;
+    border-radius: 8px;
+    background: blue;
+    border: 1px solid blue;
+    transition: 0.5s;
+}
+
+.social-media ul li i{
+    color: white;
+    font-size: 25px;
+}
+.social-media ul li:hover {
+    transition: 0.5s;
+    
+    
+}
+.social-media ul li:hover i{
+    transition: 0.5s;
+    transform: rotate(360deg);
+    
+}
+
+h1{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
